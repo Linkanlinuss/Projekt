@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+}
+
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, 
+        rgba(252, 6, 6, 0.7),
+        rgba(155, 36, 36, 0.7)),
+        url(../images/hero.jpg);
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+  
+}
+nav {
+    background-image: linear-gradient(to right, rgb(240, 0, 0), rgb(22, 19, 19));
+    font-size: 1.9rem;
+    position: static;
+    width: 100%;
+    padding: 0 3px;
+}
+ul {
+    list-style: none;
+    overflow: visible;
+    display: flex;
+    flex-flow: row;
+    margin-top: 33px;
+    margin-left: 10px;
+}
+li {
+    flex:0 1 auto;
+    justify-content: start;
+}
+
+
+li a {
+    display: block;
+    color: rgb(219, 221, 217);
+    text-decoration: none;
+    padding: 14px 16px;
+ 
+}
+
+li a:hover, li a.active {
+    background-color: rgb(0, 5, 0);
+}
+
+section.puff-container {
+    width: 80%;
+    margin: 50px auto 0;
+    background: rgba(192, 36, 36, 0.7);
+    border: 4px solid rgb(19, 7, 7);
+    overflow: hidden;
+    display: flex; 
+    flex-flow: row wrap;
+    
+}
+section1.puff-container h1 {
+    font-size: 2.4rem;
+    text-align: center;
+    color: black;
+}
+
+.puff-container h2 {
+    font-size: 1.4rem;
+    margin: 1.9rem 0;
+    color: rgb(8, 0, 0);
+
+}
+p.ingress {
+    font-size: 1.1rem;
+    font-weight: lighter;
+    margin: 0.5rem 0;
+    
+}
+.puff-container > .puff {
+    width: 33.333%;
+    min-width: 200px;
+    margin: 0; 
+    padding: 10px;
+    order: 2;
+    flex-flow: row wrap;
+    
+}
+.puff-container a {
+    text-decoration: none;
+    color: #333;
+}
+.puff-container img {
+    width: 20em;
+    height: 30em;
+    width: 100%;
+}
+.h1 {
+    justify-content: center;
